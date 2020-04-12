@@ -56,17 +56,17 @@ inquirer.prompt([
     },
     //no options for table of contents?
     //table of contents
-    {
-        type: "confirm",
-        message: "Include table of contents?",
-        name: "tableOfContent",
-        default: true
-    },
+    // {
+    //     type: "confirm",
+    //     message: "Include table of contents?",
+    //     name: "tableOfContent",
+    //     default: true
+    // },
     //dependencies
     //if the user inputs a list I could wirte some text in front of it? "users will need to install..."
     {
         type: "input",
-        message: "Before installing the program users will need to install:",
+        message: "What programs is your project dependent on?",
         name: "Dependencies"
     },
     //setup             @@@
@@ -126,16 +126,63 @@ inquirer.prompt([
   
 ])
     .then(function (response) {
-        console.log(response);
+        console.log(response.username);
         // function writeToFile(fileName, data) {
         // }
-        fs.writeFile("NewReadme.txt", "test", function(err){
+        fs.writeFile("NewReadme.txt", 
+        //do the writing here
+        `
+        ${response.title}/n
+        ${response.description}/n
+        User Story
+        ${response.userStory}/n
+        Table of Contents TBA...
+          Title
+          User Story
+          Table of Contents
+          Dependencies
+          Setup Instructions and Installation Guide
+          Instructions for Use
+          Testing
+          Licensing
+          Contributors
+          /n
+        Dependencies 
+        ${response.Dependencies}/n
+        Installation Guide:
+        ${response.installation}/n
+        Instructions for Use
+        ${response.usage}/n
+        Testing
+        ${response.test}/n
+        License
+        ${response.license}/n
+        Contributors
+            Main Authors: ${response.authors}
+            Other Contributions: ${response.contributors}
+
+        How to Help
+        ${response.wantToHelp}/n
+        Questions and Contact
+        ${response.questions}/n
+        `
+        // title should be bold or something...
+        //look up markup/markdown text .md ...
+        //ToC should have links
+        
+        
+        
+        
+        
+        
+        , function(err){
             if(err){
                 return console.log(err);
             }
+            console.log("New Readme Generated");
         });
         //use the first 2 responses to get badge somehow...
-        //write to file...
+       
 
 
 
