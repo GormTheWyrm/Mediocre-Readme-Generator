@@ -1,9 +1,12 @@
 
-        dddddddddddddddddddddd/n
-        ddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeee/n
+        df
+
+        dfdf
+
         User Story
-        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff/n
-        Table of Contents TBA...
+        dfdf
+
+        Table of Contents
           Title
           User Story
           Table of Contents
@@ -13,23 +16,31 @@
           Testing
           Licensing
           Contributors
-          /n
+          
+
         Dependencies 
-        sdffffffffff  sdfwwwe, fdrf,c /n
+        dfdf
+
         Installation Guide:
-        123212312321321312312/n
+        dff
+
         Instructions for Use
-        12312313123123/n
+        ff
+
         Testing
-        123123123123/n
+        
+
         License
-        123131233333333/n
+        fgfd
+
         Contributors
-            Main Authors: 1111112  2123333333
-            Other Contributions: fdsfdf, fdefrf,cref, kl
+            Main Authors: d
+            Other Contributions: 
 
         How to Help
-        weretew/n
+        
+
         Questions and Contact
-        wererew/n
+        
+
         
